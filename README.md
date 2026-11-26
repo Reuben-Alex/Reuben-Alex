@@ -1,4 +1,4 @@
-<a href="https://reubenalex.vercel.app"><img src="assets/header.svg" alt="Reuben Alex. Associate AI/ML Engineer at 66degrees. I build AI agents that run inside real enterprise systems." width="100%"></a>
+<a href="https://reubenalex.vercel.app"><img src="assets/header.svg" alt="Reuben Alex. Associate AI/ML Engineer. I build AI agents in production, and I make them show their work." width="100%"></a>
 
 <p align="center">
   <a href="https://reubenalex.vercel.app"><b>Website</b></a> &nbsp;·&nbsp;
@@ -7,32 +7,37 @@
   <a href="mailto:reubenalexa@gmail.com"><b>Email</b></a>
 </p>
 
-I work forward-deployed with enterprise clients at **66degrees**, a Google Cloud AI Partner of the
-Year, taking agents built on **Google ADK, Vertex AI and Gemini** from discovery into production.
-On the side I build agents that have to **show their work**: through traces, a working exploit,
-a nurse's override, or judges who never saw the code.
+## About
 
-## Selected work
+I'm an Associate AI/ML Engineer at **66degrees**, a Google Cloud AI Partner of the Year. I work
+forward-deployed: I work directly with a client's team to find the use case, build the agent on
+**Google ADK, Vertex AI and Gemini Enterprise**, and take it into production.
+
+That has meant six client engagements so far, in IT and HR support, manufacturing, contact centres
+and healthcare. Most of the work is wiring agents into systems a company already runs, such as
+ServiceNow, SAP SuccessFactors, Genesys and BigQuery, and then measuring what changed.
+
+**On the side I build software that has to show its work.**
+
+## Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 <a href="https://devpost.com/software/clintrace"><img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/004/744/276/datas/original.png" alt="ClinTrace triage audit report: triage mission checklist and recommended actions" width="100%"></a>
 
-**[ClinTrace](https://github.com/Reuben-Alex/ClinTrace)**: an emergency-department triage agent,
-built solo. It scores severity, flags red flags and routes the patient, with every step traced in
-Arize Phoenix. Nurse overrides recalibrate similar future cases without retraining.
+**[ClinTrace](https://github.com/Reuben-Alex/ClinTrace)**: an emergency-department triage agent, built solo. It traces every
+triage step in Arize Phoenix, and recalibrates from a nurse's override without retraining.
 
-🏆 **3rd of 245**, Arize track, Google Cloud Rapid Agent Hackathon<br>
+🏆 **3rd of 245** final-round submissions, Arize track, Google Cloud Rapid Agent Hackathon<br>
 <sub>Google ADK · Vertex AI Agent Engine · Gemini · Arize Phoenix · BigQuery</sub><br>
 <sub>[Code](https://github.com/Reuben-Alex/ClinTrace) · [Video](https://www.youtube.com/watch?v=hKs4fqzKKHw) · [Devpost](https://devpost.com/software/clintrace)</sub>
 </td>
 <td width="50%" valign="top">
 <a href="https://devpost.com/software/re-entry-h7ba93"><img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/005/719/423/datas/original.png" alt="Re-entry: find, prove, fix, verify, shown across the demo" width="100%"></a>
 
-**[Re-entry](https://github.com/Reuben-Alex/re-entry)**: an agent that proves smart-contract bugs
-by writing an exploit and running it in a sandbox, then patches the contract and replays the
-exploit to prove the fix holds.
+**[Re-entry](https://github.com/Reuben-Alex/re-entry)**: an agent that reports a smart-contract bug only after it has
+exploited it in a sandbox, then patches the contract and replays the exploit to prove the fix.
 
 **5 of 13** targets exploited by the agent, **13 of 13** safe controls clean<br>
 <sub>Nebius x NVIDIA Global AI Hackathon · Nemotron · Anvil · Solidity</sub><br>
@@ -43,9 +48,9 @@ exploit to prove the fix holds.
 <td width="50%" valign="top">
 <a href="https://github.com/Reuben-Alex/Revenant"><img src="https://raw.githubusercontent.com/Reuben-Alex/Revenant/main/docs/img/rising.jpg" alt="Revenant: grave G-10 rises 16 days after snowmelt" width="100%"></a>
 
-**[Revenant](https://github.com/Reuben-Alex/Revenant)**: an early-warning map for zombie wildfires,
-which smoulder under the snow and flare up on last year's burn scar. Each spring is tested against
-a chance baseline, and the app says so when it doesn't beat it.
+**[Revenant](https://github.com/Reuben-Alex/Revenant)**: an early-warning map for zombie wildfires, which smoulder under the
+snow and flare up on last year's burn scar. It tests each wildfire season against a chance baseline
+before it claims anything.
 
 <sub>Kiroween 2026 · NASA FIRMS · VIIRS · React · Python</sub><br>
 <sub>[Code](https://github.com/Reuben-Alex/Revenant)</sub>
@@ -53,24 +58,32 @@ a chance baseline, and the app says so when it doesn't beat it.
 <td width="50%" valign="top">
 <a href="https://github.com/Reuben-Alex/tough-crowd"><img src="https://raw.githubusercontent.com/Reuben-Alex/tough-crowd/main/docs/assets/demo.gif" alt="A 15-second product film directed by a coding agent" width="100%"></a>
 
-**[Tough Crowd](https://github.com/Reuben-Alex/tough-crowd)**: a Claude Code plugin. The agent
-directs a product film shot by shot, then three blind judges decide what gets reshot. The benchmark
-is reported honestly, including when it doesn't win.
+**[Tough Crowd](https://github.com/Reuben-Alex/tough-crowd)**: a Claude Code plugin. The agent directs a product film shot by
+shot, then the film goes in front of three judges who never saw the code. Any shot two of them
+reject goes back to be fixed.
 
 <sub>Claude Code · HyperFrames · Node 22 · zero dependencies</sub><br>
 <sub>[Code](https://github.com/Reuben-Alex/tough-crowd)</sub>
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+<a href="https://github.com/Reuben-Alex/adk-upgrade-check"><img src="https://raw.githubusercontent.com/Reuben-Alex/adk-upgrade-check/main/docs/demo.svg" alt="adk-upgrade-check reporting four breaking changes in a demo ADK project" width="100%"></a>
+
+**[adk-upgrade-check](https://github.com/Reuben-Alex/adk-upgrade-check)**: finds the code a Google ADK upgrade will break,
+before you upgrade. It is static and offline, so it never runs your code, and it points to the exact
+lines with the upstream change and the fix.
+
+**6 of 6** error-level rules reproduced on real `google-adk` releases<br>
+<sub>Python · LibCST · SARIF · GitHub Actions</sub><br>
+<sub>[Code](https://github.com/Reuben-Alex/adk-upgrade-check) · [PyPI](https://pypi.org/project/adk-upgrade-check/)</sub>
+</td>
+</tr>
 </table>
 
-**Also:** [KeyRing](https://devpost.com/software/keyring-x3h8r9) mints 60-second, scoped
-credentials for each agent task, and blocks policy changes that widen access until they're verified
-safe. Built on GitLab Duo flows. ([video](https://www.youtube.com/watch?v=4wwa72Qe9cY))
+## Experience
 
-**Now building:** `adk-upgrade-check`, an open-source upgrade checker for Google ADK. It flags the
-code, config and session-database changes a new `google-adk` release will break, before you bump.
-
-## At work
+**Associate AI/ML Engineer, 66degrees** · Jun 2025 – present
 
 | | |
 |---|---|
@@ -78,9 +91,23 @@ code, config and session-database changes a new `google-adk` release will break,
 | **~$600K** saved | Gemini Enterprise agent tracking 800+ manufacturing leases and informing pricing |
 | **−45%** handle time, 1,000+ agents | Contact-centre intelligence embedded in Genesys |
 | **30+** call intents | Dialogflow CX voice bot for a healthcare client |
-| **+30%** tower space utilisation | SAM2 computer-vision pipeline (internship) |
 
-<sub>Python · Google ADK · Vertex AI · Gemini · Gemini Enterprise · Dialogflow CX · BigQuery · Arize Phoenix · OpenTelemetry · LangChain · PyTorch · Docker · Terraform</sub>
+**AI/ML Intern, 66degrees** · Sep 2024 – Jun 2025
+
+| | |
+|---|---|
+| **+30%** tower space utilisation | SAM2 computer-vision pipeline that segments tower equipment from site imagery |
+
+## Stack
+
+| | |
+|---|---|
+| **Agents** | <img src="https://cdn.simpleicons.org/google/8e949e" height="13" alt="">&nbsp;Google ADK &nbsp;·&nbsp; <img src="https://cdn.simpleicons.org/googlecloud/8e949e" height="13" alt="">&nbsp;Vertex AI Agent Engine &nbsp;·&nbsp; <img src="https://cdn.simpleicons.org/googlegemini/8e949e" height="13" alt="">&nbsp;Gemini Enterprise &nbsp;·&nbsp; <img src="https://cdn.simpleicons.org/langchain/8e949e" height="13" alt="">&nbsp;LangChain &nbsp;·&nbsp; <img src="https://cdn.simpleicons.org/modelcontextprotocol/8e949e" height="13" alt="">&nbsp;MCP &nbsp;·&nbsp; <img src="https://cdn.simpleicons.org/claude/8e949e" height="13" alt="">&nbsp;Claude Code plugins |
+| **Generative AI** | <img src="https://cdn.simpleicons.org/googlegemini/8e949e" height="13" alt="">&nbsp;Gemini &nbsp;·&nbsp; RAG &nbsp;·&nbsp; NL-to-SQL &nbsp;·&nbsp; OCR &nbsp;·&nbsp; <img src="https://cdn.simpleicons.org/dialogflow/8e949e" height="13" alt="">&nbsp;Dialogflow CX &nbsp;·&nbsp; <img src="https://cdn.simpleicons.org/nvidia/8e949e" height="13" alt="">&nbsp;NVIDIA Nemotron |
+| **Evals and tracing** | Arize Phoenix &nbsp;·&nbsp; <img src="https://cdn.simpleicons.org/opentelemetry/8e949e" height="13" alt="">&nbsp;OpenTelemetry &nbsp;·&nbsp; LLM-as-judge &nbsp;·&nbsp; Blind panels &nbsp;·&nbsp; Chance baselines &nbsp;·&nbsp; Static analysis |
+| **Vision and data** | <img src="https://cdn.simpleicons.org/meta/8e949e" height="13" alt="">&nbsp;SAM2 &nbsp;·&nbsp; <img src="https://cdn.simpleicons.org/googlebigquery/8e949e" height="13" alt="">&nbsp;BigQuery &nbsp;·&nbsp; SQL &nbsp;·&nbsp; <img src="https://cdn.simpleicons.org/nasa/8e949e" height="13" alt="">&nbsp;NASA FIRMS &nbsp;·&nbsp; VIIRS |
+| **Cloud** | <img src="https://cdn.simpleicons.org/googlecloud/8e949e" height="13" alt="">&nbsp;Vertex AI &nbsp;·&nbsp; <img src="https://cdn.simpleicons.org/googlecloud/8e949e" height="13" alt="">&nbsp;Cloud Run &nbsp;·&nbsp; <img src="https://cdn.simpleicons.org/githubactions/8e949e" height="13" alt="">&nbsp;GitHub Actions &nbsp;·&nbsp; Genesys |
+| **Languages** | <img src="https://cdn.simpleicons.org/python/8e949e" height="13" alt="">&nbsp;Python &nbsp;·&nbsp; <img src="https://cdn.simpleicons.org/typescript/8e949e" height="13" alt="">&nbsp;TypeScript &nbsp;·&nbsp; SQL &nbsp;·&nbsp; <img src="https://cdn.simpleicons.org/solidity/8e949e" height="13" alt="">&nbsp;Solidity |
 
 ## Certifications
 
