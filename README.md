@@ -112,6 +112,7 @@ lines with the upstream change and the fix.
 ## Certifications
 
 <a href="https://www.credly.com/badges/50b48f39-d11d-4cdf-a907-ebb38c4df6eb" title="Professional Machine Learning Engineer"><img src="https://images.credly.com/size/110x110/images/05e71e7e-92a1-4821-8530-4176b2e3c4b4/image.png" width="84" alt="Google Cloud Professional Machine Learning Engineer"></a>
+<a href="https://www.credly.com/badges/73f46b30-1aba-46d6-9a8a-3a9c1cf7f84d" title="Claude Certified Developer - Foundations"><img src="https://images.credly.com/size/110x110/images/f101c6ac-8a2d-4220-b381-70e3e6c364e3/blob" width="84" alt="Claude Certified Developer - Foundations"></a>
 <a href="https://www.credly.com/badges/9524e71a-3eb0-45bb-94fe-4d5b0f2380b4" title="Generative AI Leader"><img src="https://images.credly.com/size/110x110/images/ec23e41a-0f32-4a98-9c00-28925621b281/blob" width="84" alt="Google Cloud Generative AI Leader"></a>
 <a href="https://www.credly.com/badges/f758dcfc-3962-4990-86f0-9a2ee2c824e4" title="Gemini Enterprise Forward Deployed Engineer"><img src="https://images.credly.com/size/110x110/images/6cd4257b-08f6-4d82-9f62-150796775d9e/blob" width="84" alt="Gemini Enterprise Forward Deployed Engineer"></a>
 <a href="https://www.credly.com/badges/02bf0a72-3575-4f49-b827-c6b5f0ae9dd5" title="Build and Deploy ML Solutions on Vertex AI"><img src="https://images.credly.com/size/110x110/images/f4c342c9-af98-4352-b54a-a8a166ee8f68/image.png" width="84" alt="Build and Deploy Machine Learning Solutions on Vertex AI skill badge"></a>
